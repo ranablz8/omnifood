@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 html {
     background-color: #fff;
@@ -17,7 +17,10 @@ html {
     /* overflow-x: hidden; */
 }
 
-.clearfix {zoom: 1;}
+.clearfix {
+    zoom: 1;
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -88,7 +91,7 @@ h2:after {
 }
 
 /* ------------------------------------ */
- /* pragraph  */
+/* pragraph  */
 /* ------------------------------------ */
 
 .long-copy {
@@ -135,8 +138,7 @@ a:active {
     color: #e67e22;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22
-    transition: border-bottom 0.2s, color 0.2s;
+    border-bottom: 1px solid #e67e22 transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
@@ -311,8 +313,9 @@ header {
     text-align: right;
     padding-right: 3%;
     margin-top: 30px;
-    
+
 }
+
 .steps-box:last-child {
     text-align: left;
     padding-left: 3%;
@@ -340,9 +343,9 @@ header {
     width: 55px;
     text-align: center;
     padding: 5px;
-    float: left; 
+    float: left;
     font-size: 150%;
-    margin-right: 25px; 
+    margin-right: 25px;
 }
 
 .btn-app:link,
@@ -381,7 +384,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     color: #fff;
-} */
+}
 
 blockquote {
     padding: 2%;
@@ -389,11 +392,11 @@ blockquote {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
-} 
+}
 
 
 blockquote:before {
-    content:"\201C"; 
+    content: "\201C";
     font-size: 500%;
     display: block;
     position: absolute;
@@ -413,4 +416,59 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* ------------------------------------ */
+/* Sign UP */
+/* ------------------------------------ */
+
+.section-plans {
+    background-color: #f4f4f4
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(202, 82, 82)
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8
+}
+
+.plan-box dic:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
 }
