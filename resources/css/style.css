@@ -376,12 +376,12 @@ header {
 /* ------------------------------------ */
 
 .section-testimonials {
-    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/customers.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
-}
+} */
 
 blockquote {
     padding: 2%;
